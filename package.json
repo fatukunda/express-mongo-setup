@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Frank Atukunda",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
