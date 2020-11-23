@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
 const TodoSchema = mongoose.Schema({
-  text: {
+  item: {
     type: String,
     required: true,
   },
-  isCompleted: {
-    type: String,
+  completed: {
+    type: Boolean,
     required: true,
     default: false,
   },
